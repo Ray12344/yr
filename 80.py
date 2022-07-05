@@ -488,7 +488,7 @@ def starturl(): # in questa funzione setto l'url per renderlo usabile per il fut
 	try:
 		urlport = url.replace("http://", "").replace("https://", "").split("/")[0].split(":")[1]
 	except:
-		urlport = "7777"
+		urlport = "9907"
 
 	floodmode()
 
